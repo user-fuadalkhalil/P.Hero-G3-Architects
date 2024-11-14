@@ -16,6 +16,11 @@
     font-size: 1.25rem;
     font-weight: 600;
     cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background: #965307;
 }
 
 /* header related styles */
@@ -123,6 +128,49 @@ main {
     padding-bottom: 30px;
 }
 
+/* facts section related styles */
+.facts-section {
+    margin: 100px 0;
+}
+
+.facts-title {
+    font-size: 2.8rem;
+    color: #131313;
+}
+
+.facts-description {
+    width: 40%;
+    margin: 20px 0;
+    color: #727272;
+    line-height: 1.5;
+}
+
+.facts-card-container {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.facts-card-container .facts-card {
+    border: 1px solid #ff900e;
+    border-radius: 8px;
+    text-align: center;
+    padding: 30px 30px;
+    min-width: 18%;
+}
+
+.facts-card-container .facts-card .card-stats {
+    font-size: 2.8rem;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.facts-card-container .facts-card .card-title {
+    font-weight: 600;
+    color: #727272;
+    font-size: 1.25rem;
+    margin-top: 5px;
+}
 
 
 
